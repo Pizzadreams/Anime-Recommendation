@@ -1,0 +1,9 @@
+# Anime Recommendation Project
+
+## High level overview
+1. Choose an anime API: I need to pick one of the available anime APIs, such as AniList API, Kitsu API, or Jikan API and obtain an API key.
+2. Plan my application: I have to decide what prompts I want to ask the user and how I will use the API information to make a recommendation. For example, I could ask the user about their preferred genre, episode length, and target audience, and then use that information to search for anime that match those criteria.
+3. Write code to access the API: I will use the requests library in Python to access the API and retrieve information about anime. I will construct a URL with my API key and the parameters for my search, and then make a GET request to the API. The API will return the results in JSON format, which I can then parse using the json library.
+4. Store the results: I will store the results of the API call in a data structure, such as a list or dictionary, so that I can access and manipulate the information easily.
+5. Write code to make a recommendation: Based on the information from the API and the answers to the prompts, I will write code to make a recommendation for an anime. I could use a simple algorithm, such as selecting the anime that has the highest score based on the user's criteria, or a more complex algorithm, such as using machine learning to make a prediction based on the user's answers.
+6. Present the recommendation: Finally, I will present the recommendation to the user in a user-friendly way, such as by printing the recommendation to the console or by displaying it in a graphical interface.
